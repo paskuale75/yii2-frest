@@ -16,8 +16,8 @@ class ThemeAsset extends BaseAssetBundle {
      * @var array depended bundles
      */
     public $depends = [
-        'dlds\metronic\bundles\CoreAsset',
-        'dlds\metronic\bundles\StyleBasedAsset',
+        'paskuale75\frest\bundles\CoreAsset',
+        'paskuale75\frest\bundles\StyleBasedAsset',
     ];
 
     /**
@@ -65,9 +65,9 @@ class ThemeAsset extends BaseAssetBundle {
      */
     private function _handleSourcePath()
     {
-        if (Metronic::getComponent())
+        if (Frest::getComponent())
         {
-            Metronic::getComponent()->parseAssetsParams($this->sourcePath);
+            Frest::getComponent()->parseAssetsParams($this->sourcePath);
         }
     }
 
@@ -76,7 +76,7 @@ class ThemeAsset extends BaseAssetBundle {
      */
     private function _handleDynamicCss()
     {
-        $component = Metronic::getComponent();
+        $component = Frest::getComponent();
 
         if ($component)
         {
@@ -89,7 +89,7 @@ class ThemeAsset extends BaseAssetBundle {
      */
     private function _handleDynamicJs()
     {
-        $component = Metronic::getComponent();
+        $component = Frest::getComponent();
 
         if ($component)
         {
