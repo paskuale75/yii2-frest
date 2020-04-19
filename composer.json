@@ -1,0 +1,27 @@
+{
+    "name": "paskuale75/yii2-frest",
+    "description": "Yii2 Frest theme integration",
+    "keywords": ["yii2", "theme", "frest"],
+    "type": "yii2-extension",
+    "license": "BSD",
+    "support": {
+        "issues": "https://github.com/paskuale75/yii2-frest/issues",
+        "wiki": "https://github.com/paskuale75/yii2-frest/wiki",
+        "source": "https://github.com/paskuale75/yii2-frest"
+    },
+    "authors": [
+        {
+            "name": "Pasquale Pellicani",
+            "email": "pellicanipasquale@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "kartik-v/yii2-grid": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "paskuale75\\frest\\": ""
+        }
+    }
+}
