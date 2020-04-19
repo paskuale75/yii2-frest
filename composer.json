@@ -3,7 +3,8 @@
     "description": "Yii2 Frest theme integration",
     "keywords": ["yii2", "theme", "frest"],
     "type": "yii2-extension",
-    "license": "BSD",
+    "license": "MIT",
+    "version" : "1.0.0",
     "support": {
         "issues": "https://github.com/paskuale75/yii2-frest/issues",
         "wiki": "https://github.com/paskuale75/yii2-frest/wiki",
